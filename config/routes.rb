@@ -12,6 +12,7 @@ Reddit::Application.routes.draw do
   #   match 'products/:id/purchase' => 'catalog#purchase', :as => :purchase
   # This route can be invoked with purchase_url(:id => product.id)
   resources :pages
+  resources :links
   root :to => "pages#index"    
 
 # Sample resource route (maps HTTP verbs to controller actions automatically):
